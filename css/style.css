@@ -253,8 +253,8 @@ header a:hover {
 }
 
 .prices .card-header {
-  color: #fff;
-  text-shadow: 2px 2px 2px #1b1b1b;
+  color: #1b1b1b;
+  text-shadow: 1px 1px 1px #fff;
   background-color: #ddd;
 }
 
@@ -269,6 +269,7 @@ header a:hover {
 }
 
 .prices {
+  background-color: rgb(240, 236, 236);
   padding-top: 10px;
   margin: auto;
 }
@@ -284,17 +285,17 @@ header a:hover {
 }
 
 .btn-price {
-  background-image: linear-gradient(white, rgb(182, 182, 182));
   border-radius: 0px;
   transition: transform .3s;
-  border: 1px solid #444;
+  border: 1px solid rgb(177, 177, 177);
   width: 60px;
   height: 40px;
 }
 
 .btn-price:hover {
-  background-image: linear-gradient(#95eb95, #50b450);
-  color: #1b1b1b;
+  background-color: #666;
+  color: #fff;
+  border: none;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
